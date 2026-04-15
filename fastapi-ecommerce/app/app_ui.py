@@ -3,8 +3,9 @@ import requests
 import pandas as pd
 import uuid
 from datetime import datetime
+import os
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = os.getenv("BASE_URL", "http://127.0.0.1:8000")
 
 st.set_page_config(page_title="E-Commerce UI", layout="wide")
 st.markdown("""
