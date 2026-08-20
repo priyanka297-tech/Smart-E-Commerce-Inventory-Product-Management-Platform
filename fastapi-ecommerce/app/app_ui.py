@@ -1,9 +1,9 @@
 import streamlit as st
 import requests
-import pandas as pd
 import uuid
 from datetime import datetime
 import os
+import pandas as pd 
 
 BASE_URL = "https://smart-ecommerce-api-10z7.onrender.com"
 
